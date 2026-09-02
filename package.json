@@ -1,0 +1,31 @@
+{
+  "name": "wealth-platform-foundation",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Product-neutral foundation for a scalable wealth management application.",
+  "engines": { "node": "24.x" },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run --passWithNoTests",
+    "verify": "npm run lint && npm run typecheck && npm run test && npm run build"
+  },
+  "dependencies": {
+    "next": "16.3.4",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "zod": "4.1.5"
+  },
+  "devDependencies": {
+    "@types/node": "24.3.0",
+    "@types/react": "19.1.12",
+    "@types/react-dom": "19.1.9",
+    "eslint": "9.34.0",
+    "eslint-config-next": "16.3.4",
+    "typescript": "5.9.2",
+    "vitest": "3.2.4"
+  }
+}
