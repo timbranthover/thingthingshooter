@@ -1,8 +1,8 @@
 {
-  "name": "wealth-platform-foundation",
-  "version": "0.1.0",
+  "name": "thingthingshooter",
+  "version": "0.2.0",
   "private": true,
-  "description": "Product-neutral foundation for a scalable wealth management application.",
+  "description": "Mobile-first browser FPS villa level.",
   "engines": { "node": "24.x" },
   "scripts": {
     "dev": "next dev",
@@ -17,12 +17,14 @@
     "next": "16.3.4",
     "react": "19.2.0",
     "react-dom": "19.2.0",
+    "three": "0.180.0",
     "zod": "4.1.5"
   },
   "devDependencies": {
     "@types/node": "24.3.0",
     "@types/react": "19.1.12",
     "@types/react-dom": "19.1.9",
+    "@types/three": "0.180.0",
     "eslint": "9.34.0",
     "eslint-config-next": "16.3.4",
     "typescript": "5.9.2",
